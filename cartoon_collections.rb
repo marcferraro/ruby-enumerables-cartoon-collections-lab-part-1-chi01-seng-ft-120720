@@ -17,7 +17,7 @@ def list_dwarves(array)
   array.each do |element|
     count = 0
     while count < array.length
-    puts "#{count}. #{element}"
+    puts "#{count + 1}. #{element}"
     count += 1
   end
 end
