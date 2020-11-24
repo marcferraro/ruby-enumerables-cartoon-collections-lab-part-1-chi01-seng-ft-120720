@@ -20,5 +20,5 @@ def list_dwarves(array)
     puts "#{count}. #{element}"
     count += 1
   end
-  
+end
 end
